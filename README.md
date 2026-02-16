@@ -7,7 +7,8 @@ The goal of this project is to demonstrate a deep understanding of retrieval-bas
 ---
 
 ## Architecture Overview
-![RAG Architecture](assets/RAG-built-from-scratch.png)
+![RAG Architecture](assets/architecture.png)
+
 
 The system follows a standard RAG architecture:
 
