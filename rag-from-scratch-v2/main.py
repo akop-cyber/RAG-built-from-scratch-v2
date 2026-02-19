@@ -81,6 +81,7 @@ messages = [
 ]
 
 prompt = token.apply_chat_template(messages,tokenize = False,add_generation_prompt=True)
-output = llm_engine(prompt,max_new_tokens = 512,do_sample = True, temperature = 0.1)
+output = llm_engine(prompt,max_new_tokens = 512,do_sample = False, temperature = 0.1)
 fa = output[0]["generated_text"].split("<|start_header_id|>assistant<|end_header_id|>")[-1].strip()
+
 print(f"model says: {fa}")
