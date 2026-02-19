@@ -41,7 +41,7 @@ Splits long text into manageable semantic chunks.
 Generates dense vector embeddings using sentence-transformer models.
 
 ### VectorStorage
-Stores embeddings alongside their corresponding text chunks.
+Stores embeddings alongside their corresponding text chunks in Python lists.
 
 ### Retriever
 Computes cosine similarity between the query embedding and stored vectors to retrieve the top-k most relevant chunks.
