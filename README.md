@@ -118,3 +118,4 @@ Why were people of Germany angry with the Weimar Republic?
 
 ---
 DEVELOPED IN GOOGLE COLAB
+THIS README IS PARTIALLY OR WHOLELLY DIGITALLY GENERATED
